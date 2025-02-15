@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <br>
-    <form>
-        <input type="text" placeholder="name">
-        <input type="number" placeholder="age">
+  </head>
+  <body>
+    <br />
+    <form action="" method="GET or POST">
+      <input type="text" placeholder="name" value="" name="firstname" size="50"/>
+      <input type="number" placeholder="age" name="age" min="10" max="12" autofocus />
+      <input type="text" value="india" placeholder="country" />
+      <input
+        type="submit"
+        value="dissabled button"
+        disabled="kuch bhi likh lo, its presence is enough to make the element disabled"
+      />
 
-        <input type="submit" value="submit">
-        <button>hello</button>  
+      <input type="submit" value="ok" />
+      <button>hello</button>
     </form>
-</body>
+  </body>
 </html>
